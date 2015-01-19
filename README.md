@@ -14,6 +14,6 @@ Install the required libraries via pip:
 
 Usage
 -----
-    python craigslist-checker.py <search-term> <phone-number>
+    PHONE_NUMBER=<phone_number> GMAIL_USERNAME=<gmail_username> GMAIL_PASSWORD=<gmail_password> python craigslist.py <search-term>
 
 It's useful to setup a cronjob that will run the script every N minutes.
